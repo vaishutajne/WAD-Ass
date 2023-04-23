@@ -1,0 +1,39 @@
+Student result management application
+
+npm init(package.json)
+package name 
+version
+description
+author
+
+external modules
+
+npm i express 
+
+express - to rapid the development of the node application 
+morgan - help us to log a message when we make a request
+nodemon - allows us to restart the server automatically when we makes us the changes in the project 
+ejs - Template Engine allows us to create dynamic html
+bodyparser - allow us to serialize the data and access the form data using body property
+dotenv-allows you to seperate the secrete from your sourcecode(database login credintials)
+mongoose - connect with mongodb database
+axios - makes easy to make requests
+
+assets->
+css->js(client-side js file)
+img
+
+views->All html file
+
+server(services model connections)->
+model - deal with mongodb data(data validation, processing data, creating mongoose scheme)
+controller - user request's for resources from the server
+Database
+Routes
+Services
+
+server.js
+
+1)creating http server
+const express = require express
+const app = express();
